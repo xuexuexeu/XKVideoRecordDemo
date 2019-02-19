@@ -13,6 +13,18 @@
 		182CE1B3221BCF68001E274B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 182CE1B2221BCF68001E274B /* Assets.xcassets */; };
 		182CE1B6221BCF68001E274B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182CE1B4221BCF68001E274B /* LaunchScreen.storyboard */; };
 		182CE1B9221BCF68001E274B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 182CE1B8221BCF68001E274B /* main.m */; };
+		182CE22B221BCFCA001E274B /* UIView+EXTION.m in Sources */ = {isa = PBXBuildFile; fileRef = 182CE1EC221BCFCA001E274B /* UIView+EXTION.m */; };
+		182CE23B221BCFCA001E274B /* XKSrttingAVFoundationVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182CE20E221BCFCA001E274B /* XKSrttingAVFoundationVideoViewController.m */; };
+		182CE23C221BCFCA001E274B /* XKSettingVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182CE20F221BCFCA001E274B /* XKSettingVideoViewController.m */; };
+		182CE23D221BCFCA001E274B /* XKFileOutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 182CE212221BCFCA001E274B /* XKFileOutView.m */; };
+		182CE23E221BCFCA001E274B /* XKSettingFileOut.m in Sources */ = {isa = PBXBuildFile; fileRef = 182CE215221BCFCA001E274B /* XKSettingFileOut.m */; };
+		182CE24C221BD546001E274B /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 182CE241221BD546001E274B /* SVRadialGradientLayer.m */; };
+		182CE24D221BD546001E274B /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 182CE244221BD546001E274B /* SVProgressAnimatedView.m */; };
+		182CE24E221BD546001E274B /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 182CE246221BD546001E274B /* SVProgressHUD.m */; };
+		182CE24F221BD546001E274B /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 182CE247221BD546001E274B /* SVIndefiniteAnimatedView.m */; };
+		182CE250221BD546001E274B /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 182CE248221BD546001E274B /* SVProgressHUD.bundle */; };
+		182CE251221BD546001E274B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 182CE24A221BD546001E274B /* README.md */; };
+		182CE252221BD546001E274B /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 182CE24B221BD546001E274B /* LICENSE.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +38,27 @@
 		182CE1B5221BCF68001E274B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		182CE1B7221BCF68001E274B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		182CE1B8221BCF68001E274B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		182CE1D7221BCFCA001E274B /* UIView+EXTION.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+EXTION.h"; sourceTree = "<group>"; };
+		182CE1EC221BCFCA001E274B /* UIView+EXTION.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+EXTION.m"; sourceTree = "<group>"; };
+		182CE20E221BCFCA001E274B /* XKSrttingAVFoundationVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XKSrttingAVFoundationVideoViewController.m; sourceTree = "<group>"; };
+		182CE20F221BCFCA001E274B /* XKSettingVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XKSettingVideoViewController.m; sourceTree = "<group>"; };
+		182CE210221BCFCA001E274B /* XKSrttingAVFoundationVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XKSrttingAVFoundationVideoViewController.h; sourceTree = "<group>"; };
+		182CE212221BCFCA001E274B /* XKFileOutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XKFileOutView.m; sourceTree = "<group>"; };
+		182CE213221BCFCA001E274B /* XKSettingFileOut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XKSettingFileOut.h; sourceTree = "<group>"; };
+		182CE214221BCFCA001E274B /* XKFileOutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XKFileOutView.h; sourceTree = "<group>"; };
+		182CE215221BCFCA001E274B /* XKSettingFileOut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XKSettingFileOut.m; sourceTree = "<group>"; };
+		182CE216221BCFCA001E274B /* XKSettingVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XKSettingVideoViewController.h; sourceTree = "<group>"; };
+		182CE241221BD546001E274B /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		182CE242221BD546001E274B /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		182CE243221BD546001E274B /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		182CE244221BD546001E274B /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		182CE245221BD546001E274B /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		182CE246221BD546001E274B /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		182CE247221BD546001E274B /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		182CE248221BD546001E274B /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		182CE249221BD546001E274B /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		182CE24A221BD546001E274B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		182CE24B221BD546001E274B /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +91,8 @@
 		182CE1A8221BCF68001E274B /* 视频录屏Demo */ = {
 			isa = PBXGroup;
 			children = (
+				182CE20D221BCFCA001E274B /* 录制视频 */,
+				182CE1BF221BCFCA001E274B /* Tool */,
 				182CE1A9221BCF68001E274B /* AppDelegate.h */,
 				182CE1AA221BCF68001E274B /* AppDelegate.m */,
 				182CE1AC221BCF68001E274B /* ViewController.h */,
@@ -69,6 +104,65 @@
 				182CE1B8221BCF68001E274B /* main.m */,
 			);
 			path = "视频录屏Demo";
+			sourceTree = "<group>";
+		};
+		182CE1BF221BCFCA001E274B /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				182CE23F221BD546001E274B /* SVProgressHUD */,
+				182CE1D7221BCFCA001E274B /* UIView+EXTION.h */,
+				182CE1EC221BCFCA001E274B /* UIView+EXTION.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		182CE20D221BCFCA001E274B /* 录制视频 */ = {
+			isa = PBXGroup;
+			children = (
+				182CE211221BCFCA001E274B /* fileOutView */,
+				182CE210221BCFCA001E274B /* XKSrttingAVFoundationVideoViewController.h */,
+				182CE20E221BCFCA001E274B /* XKSrttingAVFoundationVideoViewController.m */,
+				182CE216221BCFCA001E274B /* XKSettingVideoViewController.h */,
+				182CE20F221BCFCA001E274B /* XKSettingVideoViewController.m */,
+			);
+			path = "录制视频";
+			sourceTree = "<group>";
+		};
+		182CE211221BCFCA001E274B /* fileOutView */ = {
+			isa = PBXGroup;
+			children = (
+				182CE214221BCFCA001E274B /* XKFileOutView.h */,
+				182CE212221BCFCA001E274B /* XKFileOutView.m */,
+				182CE213221BCFCA001E274B /* XKSettingFileOut.h */,
+				182CE215221BCFCA001E274B /* XKSettingFileOut.m */,
+			);
+			path = fileOutView;
+			sourceTree = "<group>";
+		};
+		182CE23F221BD546001E274B /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				182CE240221BD546001E274B /* SVProgressHUD */,
+				182CE24A221BD546001E274B /* README.md */,
+				182CE24B221BD546001E274B /* LICENSE.txt */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		182CE240221BD546001E274B /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				182CE241221BD546001E274B /* SVRadialGradientLayer.m */,
+				182CE242221BD546001E274B /* SVIndefiniteAnimatedView.h */,
+				182CE243221BD546001E274B /* SVProgressHUD.h */,
+				182CE244221BD546001E274B /* SVProgressAnimatedView.m */,
+				182CE245221BD546001E274B /* SVRadialGradientLayer.h */,
+				182CE246221BD546001E274B /* SVProgressHUD.m */,
+				182CE247221BD546001E274B /* SVIndefiniteAnimatedView.m */,
+				182CE248221BD546001E274B /* SVProgressHUD.bundle */,
+				182CE249221BD546001E274B /* SVProgressAnimatedView.h */,
+			);
+			path = SVProgressHUD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,9 +223,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				182CE252221BD546001E274B /* LICENSE.txt in Resources */,
 				182CE1B6221BCF68001E274B /* LaunchScreen.storyboard in Resources */,
 				182CE1B3221BCF68001E274B /* Assets.xcassets in Resources */,
+				182CE251221BD546001E274B /* README.md in Resources */,
 				182CE1B1221BCF68001E274B /* Main.storyboard in Resources */,
+				182CE250221BD546001E274B /* SVProgressHUD.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,9 +239,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				182CE23D221BCFCA001E274B /* XKFileOutView.m in Sources */,
+				182CE24F221BD546001E274B /* SVIndefiniteAnimatedView.m in Sources */,
 				182CE1AE221BCF68001E274B /* ViewController.m in Sources */,
+				182CE24D221BD546001E274B /* SVProgressAnimatedView.m in Sources */,
+				182CE23E221BCFCA001E274B /* XKSettingFileOut.m in Sources */,
+				182CE24E221BD546001E274B /* SVProgressHUD.m in Sources */,
+				182CE22B221BCFCA001E274B /* UIView+EXTION.m in Sources */,
+				182CE23B221BCFCA001E274B /* XKSrttingAVFoundationVideoViewController.m in Sources */,
+				182CE23C221BCFCA001E274B /* XKSettingVideoViewController.m in Sources */,
 				182CE1B9221BCF68001E274B /* main.m in Sources */,
 				182CE1AB221BCF68001E274B /* AppDelegate.m in Sources */,
+				182CE24C221BD546001E274B /* SVRadialGradientLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,8 +385,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9FWR355Y7Z;
+				DEVELOPMENT_TEAM = 2VPN4L2YU2;
 				INFOPLIST_FILE = "视频录屏Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "xk.----Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -293,8 +400,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9FWR355Y7Z;
+				DEVELOPMENT_TEAM = 2VPN4L2YU2;
 				INFOPLIST_FILE = "视频录屏Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "xk.----Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";

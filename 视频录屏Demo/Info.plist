@@ -41,5 +41,13 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSCameraUsageDescription</key>
+	<string>请允许使用摄像头获取信息</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>请允许相册添加信息，以保存产生的信息</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>请允许访问相册以获取信息</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>请允许访问麦克风以获取信息</string>
 </dict>
 </plist>
