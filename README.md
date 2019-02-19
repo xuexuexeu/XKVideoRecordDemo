@@ -1,0 +1,4 @@
+# XKVideoRecordDemo
+简单的两种视频录屏方式。
+一种通过使用系统默认的界面，UIImagePickerController实现
+另一种自定义录屏界面AVFoundation框架的AVCaptureSession，输出文件到AVCaptureMovieFileOutput
